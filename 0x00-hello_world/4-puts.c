@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - the main function
  *
  * Return: the program will end with value zero
