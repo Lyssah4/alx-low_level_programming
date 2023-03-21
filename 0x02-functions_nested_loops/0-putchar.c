@@ -4,9 +4,10 @@
  * main - entry point
  * _putchar: print the alphabets putchar
  * Return - 0 always
+ *void - returns nothing
  */
 
-int main(void)
+int main(void a)
 {
 	_putchar('_');
 	_putchar('p');
