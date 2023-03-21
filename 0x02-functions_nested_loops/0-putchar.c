@@ -7,7 +7,7 @@
  *void - returns nothing
  */
 
-int main(void a)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
