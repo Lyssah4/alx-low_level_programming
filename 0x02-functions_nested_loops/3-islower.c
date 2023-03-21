@@ -3,6 +3,7 @@
  * _islower - function to print lowercase
  *
  * @c: parameter to be printed
+ * Return: 1 if lowercase and 0 when not
  */
 int _islower(int c)
 {
