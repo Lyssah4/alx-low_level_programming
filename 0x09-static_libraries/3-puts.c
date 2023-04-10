@@ -1,10 +1,8 @@
-#include "main.h"
-void _puts(char *str)
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - the main function
  *
- * Return: Always 0 (Success)
+ * Return: the program will end with value zero
  */
 int main(void)
 {
