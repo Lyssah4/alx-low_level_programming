@@ -25,10 +25,10 @@ int count_word(char *s)
 	return (w);
 }
 /**
- *  **strtow - splits a string into words
- *
- *  Return: pointer to an array of strings (Success)
- *  or NULL (Error)
+ * **strtow - splits a string into words
+ *@str: string to split
+ *Return: pointer to an array of strings (Success)
+ *or NULL (Error)
  */
 char **strtow(char *str)
 {
