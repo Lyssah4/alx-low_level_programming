@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_realloc - reallocate a memory space 
+ * *_realloc - reallocate a memory space
  * @ptr: pointer to the memory that was there before reallocation
  * @old_size: size of the allocated memory for ptr
  * @new_size: new size of the memory
@@ -28,15 +28,18 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (malloc(new_size));
 
 	ptr1 = malloc(new_size);
+
 	if (!ptr1)
 		return (NULL);
+
 	old_ptr = ptr;
 
 	if (new_size < old_size)
 	{
 		for (i = 0; i < new_size; i++)
-			ptr1[i] = old_ptr[i];
+			ptr1[i] = old_ptr[i]; 
 	}
+
 	if (new_size > old_size)
 	{
 		for (i = 0; i < old_size; i++)
@@ -44,5 +47,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 
 	free(ptr);
+
 	return (ptr1);
 }
