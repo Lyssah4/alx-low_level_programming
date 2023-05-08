@@ -49,7 +49,7 @@ void print_magic(unsigned char *e_ident)
 {
 	int index;
 
-	printf(" Magic: ");
+	printf("  Magic:   ");
 
 	for (index = 0; index < EI_NIDENT; index++)
 	{
